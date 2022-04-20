@@ -1,5 +1,4 @@
-server:
-  port: 80
+
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
@@ -10,13 +9,6 @@ spring:
   mvc:
     servlet:
       path: /api
-  sql:
-    init:
-      mode: always
-  jpa:
-    hibernate:
-      ddl-auto: create
-    show-sql: true
 jwt:
   secretKey: SupperKey
   expireTime: 864000000
