@@ -12,6 +12,9 @@ public class ApiResponse {
     private int status;
     private boolean success;
 
+
+
+
     public ApiResponse(String message, int status) {
         this.message = message;
         this.status = status;
